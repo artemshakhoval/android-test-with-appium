@@ -4,15 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "appium-android-driver": "^4.47.0",
+    "nodemon": "^2.0.12",
     "selenium-appium": "^1.0.2",
-    "webdriver": "^7.9.1",
+    "selenium-webdriver": "^4.0.0-beta.4",
     "webdriverio": "^7.9.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "chromedriver": "^92.0.1",
+    "express": "^4.17.1",
+    "wdio-chromedriver-service": "^7.2.0"
   }
 }
